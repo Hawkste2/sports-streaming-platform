@@ -8,6 +8,12 @@ The initial project phase focuses on NBA game score data using the BALldontlie A
 include additional NBA datasets as well as other leagues such as the NFL and NHL.
 
 
+## AI Used
+I had Chatgpt assist in *planning* of this project, inlcuding a lot of the folder structure. 
+I did not let the AI write any of the code - it's hard to get better at a skill when you don't practice.
+I did have Chatgpt review parts of my code after I wrote it for text based suggestions.
+
+
 ## Architecture
 ```mermaid
 flowchart LR
@@ -58,12 +64,6 @@ docker compose up
 
 
 ## Development Notes
-- Create the repo and basic folder structure.
-- Add a basic README.md with project goal, stack, and planned architecture.
-- Add .gitignore, .env.example, and initial requirements.txt files.
-- Create a Python virtual environment and confirm the repo runs locally.
-- Test the BALldontlie API in a small scratch script or notebook and inspect the response shape.
-- Decide your v1 Kafka message schema for nba game scores.
 - Decide your v1 Postgres tables: one raw/events table and one cleaned/latest-state table.
 - Write the SQL init scripts for those tables.
 - Stand up Postgres locally and test that your schema/tables create successfully.
